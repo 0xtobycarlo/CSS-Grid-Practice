@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Practice</title>
+    <style>
+
+        .wrapper {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            
+            /* grid-column-gap: 1em;
+            grid-row-gap: 1em; */
+
+            grid-gap: 1em;
+        }
+
+        .wrapper > div {
+            background: lightgrey;
+            padding: 1em;
+        }
+
+        .wrapper > div:nth-child(odd){
+            background: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos atque vel fugiat facere impedit odio fuga voluptatibus, ullam dolorem. Impedit blanditiis fuga, vitae maxime doloremque molestiae obcaecati quis architecto. Nemo labore quis minus, minima nobis similique voluptatibus ullam reiciendis illum aperiam delectus repudiandae doloribus ipsum esse blanditiis culpa nostrum nulla error. Alias, officiis maiores nostrum ratione possimus odio aut, dolorem laudantium adipisci at libero. Quia quo corrupti aperiam totam distinctio magnam, commodi impedit perferendis, dignissimos pariatur amet accusantium molestiae deserunt!
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore doloremque eum eius ex rerum voluptates nulla nesciunt. Nostrum vitae, tenetur labore sint exercitationem sed. Cum, inventore! Incidunt repudiandae debitis ab.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos atque vel fugiat facere impedit odio fuga voluptatibus, ullam dolorem. Impedit blanditiis fuga, vitae maxime doloremque molestiae obcaecati quis architecto. Nemo labore quis minus, minima nobis similique voluptatibus ullam reiciendis illum aperiam delectus repudiandae doloribus ipsum esse blanditiis culpa nostrum nulla error. Alias, officiis maiores nostrum ratione possimus odio aut, dolorem laudantium adipisci at libero. Quia quo corrupti aperiam totam distinctio magnam, commodi impedit perferendis, dignissimos pariatur amet accusantium molestiae deserunt!
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore doloremque eum eius ex rerum voluptates nulla nesciunt. Nostrum vitae, tenetur labore sint exercitationem sed. Cum, inventore! Incidunt repudiandae debitis ab.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos atque vel fugiat facere impedit odio fuga voluptatibus, ullam dolorem. Impedit blanditiis fuga, vitae maxime doloremque molestiae obcaecati quis architecto. Nemo labore quis minus, minima nobis similique voluptatibus ullam reiciendis illum aperiam delectus repudiandae doloribus ipsum esse blanditiis culpa nostrum nulla error. Alias, officiis maiores nostrum ratione possimus odio aut, dolorem laudantium adipisci at libero. Quia quo corrupti aperiam totam distinctio magnam, commodi impedit perferendis, dignissimos pariatur amet accusantium molestiae deserunt!
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore doloremque eum eius ex rerum voluptates nulla nesciunt. Nostrum vitae, tenetur labore sint exercitationem sed. Cum, inventore! Incidunt repudiandae debitis ab.
+        </div>
+    </div>
+</body>
+</html>
